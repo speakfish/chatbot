@@ -1,0 +1,15 @@
+[  {
+	"name" : "Welcome",
+	"code" : "100",
+	"url" : "/page/welcome",
+	"status" : 0
+},{
+	"name" : "后台系统",
+	"code" : "200",
+	"status" : 0
+},{
+	"name" : "问答录入",
+	"code" : "200-001",
+	"url" : "/chatbot/questionAnswer/forward",
+	"status" : 0
+}]

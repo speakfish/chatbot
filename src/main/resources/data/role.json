@@ -1,0 +1,16 @@
+[ {
+	"name" : "Admin",
+	"code" : "001"
+}, {
+	"name" : "BOSS",
+	"code" : "002"
+}, {
+	"name" : "Normal",
+	"code" : "003"
+}, {
+	"name" : "HR",
+	"code" : "004"
+}, {
+	"name" : "部门主管",
+	"code" : "005"
+} ]

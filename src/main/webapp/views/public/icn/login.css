@@ -1,0 +1,25 @@
+.wrap_bg {
+	background: url(fire.jpg) top left;
+	height: 620.0px;
+	margin: 0.0;
+	padding: 0.0;
+	display: block;
+	overflow: hidden;
+}
+
+.form-signin {
+	width: 380.0px;
+	padding: 5px;
+	margin: 150px auto 20.0px;
+	border: 1.0px solid #e5e5e5;
+	-webkit-border-radius: 5.0px;
+	-moz-border-radius: 5.0px;
+	border-radius: 5.0px;
+	-webkit-box-shadow: 0.0 1.0px 2.0px rgba(0.0, 0.0, 0.0, 0.05);
+	-moz-box-shadow: 0.0 1.0px 2.0px rgba(0.0, 0.0, 0.0, 0.05);
+	box-shadow: 0.0 1.0px 2.0px rgba(0.0, 0.0, 0.0, 0.05);
+}
+
+.form-signin tr {
+	height: 36px;
+}
