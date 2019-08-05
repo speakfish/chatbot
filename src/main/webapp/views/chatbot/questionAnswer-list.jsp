@@ -69,8 +69,18 @@
 						<td>{{>question}}</td>
 						<td>{{>answer}}</td>
 						<td>{{>createDateView}}</td>
-						<td>{{>type}}</td>
-						<td>{{>source}}</td>
+						<td>{{if type=='0'}}
+										<p style="color: green">幽默</p>{{else}} {{/if}} 
+							{{if type =='1'}}
+										<p style="color: green">高冷</p>{{else}} {{/if}}
+							{{if type =='2'}}
+										<p style="color: green">直男</p>{{else}} {{/if}}
+							{{if type =='3'}}
+										<p style="color: green">撒娇</p>{{else}} {{/if}}</td>
+						<td>{{if source=='0'}}
+										<p style="color: green">手工</p>{{else}} {{/if}} 
+							{{if source =='1'}}
+										<p style="color: green">爬虫</p>{{else}} {{/if}}</td>
 						<td><a href="###" class="ekEditBtn">修改</a>|<a href="###"
 								class="ekDeleteBtn">删除</a></td>
 					</tr>
@@ -101,22 +111,37 @@
 						<div class="ekTempletContain form-body">
 							<input type="hidden" name="id" value="{{>id}}" />
 							<div class="form-group">
+							<div class="row">
 								<label class="col-md-3 control-label"><span class="require-star">*</span>问题</label>
 								<div class="col-md-4">
 									<input type="text" name="question" value="{{>question}}" maxlength="100" class="form-control">
 								</div>
+							</div>
+							<div class="row">
 								<label class="col-md-3 control-label"><span class="require-star">*</span>回答</label>
 								<div class="col-md-4">
 									<input type="text" name="answer" value="{{>answer}}" maxlength="100" class="form-control">
 								</div>
+							</div>
+							<div class="row">
 								<label class="col-md-3 control-label"><span class="require-star">*</span>类型</label>
-								<div class="col-md-4">
-									<input type="text" name="type" value="{{>type}}" maxlength="100" class="form-control">
-								</div>
+									<div class="col-md-4">
+										<select ekDict="answerType" name="type"></select>
+									</div>
+							</div>
+							<div class="row">
 								<label class="col-md-3 control-label"><span class="require-star">*</span>来源</label>
 								<div class="col-md-4">
-									<input type="text" name="source" value="{{>source}}" maxlength="100" class="form-control">
-								</div>								
+										<select name="source" require> 
+											{{if source =='0'}}
+											<option value="0" selected="selected">手工</option> {{else}}
+											<option value="0">手工</option> {{/if}} 
+											{{if source == '1'}}
+											<option value="1" selected="selected">爬虫</option> {{else}}
+											<option value="1">爬虫</option>{{/if}}
+										</select>
+									</div>	
+							</div>						
 							</div>
 						</div>
 					</form>

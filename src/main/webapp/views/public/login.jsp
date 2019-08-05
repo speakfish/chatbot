@@ -74,7 +74,7 @@
 	<!-- END SIDEBAR TOGGLER BUTTON -->
 	<!-- BEGIN LOGO -->
 	<div class="logo">
-		<img src="<%=path%>/res/images/ecom.png" alt="" />
+		<img src="<%=path%>/res/images/ecom4.png" alt="" />
 	</div>
 	<!-- END LOGO -->
 	<!-- BEGIN LOGIN -->
