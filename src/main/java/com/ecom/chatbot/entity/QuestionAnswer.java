@@ -16,19 +16,19 @@ public class QuestionAnswer extends BasePo {
 	 * 问答实体类
 	 */
 	private static final long serialVersionUID = 1L;
-	private Date createtime;
+	private Date createDate;
 	private String question;
 	private String answer;
 	private Integer type;
 	private Integer source;
 	 public String getCreateDateView() {
-	        return Helper.date.time2Str(createtime);
+	        return Helper.date.time2Str(createDate);
 	    }
-	public Date getCreatetime() {
-		return createtime;
+	public Date getCreateDate() {
+		return createDate;
 	}
-	public void setCreatetime(Date createtime) {
-		this.createtime = createtime;
+	public void setCreateDate(Date createDate) {
+		this.createDate = createDate;
 	}
 	public String getQuestion() {
 		return question;
