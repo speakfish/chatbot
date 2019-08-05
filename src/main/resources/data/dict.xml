@@ -100,4 +100,24 @@
 			<itemName>其他</itemName>
 		</item>
 	</row>
+	<row>
+		<code>answerType</code>
+		<name>聊天风格</name>
+		<item>
+			<itemValue>0</itemValue>
+			<itemName>幽默</itemName>
+		</item>
+		<item>
+			<itemValue>1</itemValue>
+			<itemName>高冷</itemName>
+		</item>
+		<item>
+			<itemValue>2</itemValue>
+			<itemName>直男</itemName>
+		</item>
+		<item>
+			<itemValue>3</itemValue>
+			<itemName>撒娇</itemName>
+		</item>
+	</row>
 </Root>
