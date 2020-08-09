@@ -12,4 +12,23 @@
 	"code" : "200-001",
 	"url" : "/chatbot/questionAnswer/forward",
 	"status" : 0
-}]
+},{
+	"name" : "香港",
+	"code" : "300",
+	"status" : 0
+},{
+	"name" : "提取逻辑",
+	"code" : "300-001",
+	"url" : "/hk/allocateLogic/forward",
+	"status" : 0
+},{
+	"name" : "笔记",
+	"code" : "400",
+	"status" : 0
+},{
+	"name" : "记录",
+	"code" : "400-001",
+	"url" : "/note/anything/forward",
+	"status" : 0
+}
+]

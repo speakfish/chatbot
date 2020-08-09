@@ -120,4 +120,24 @@
 			<itemName>撒娇</itemName>
 		</item>
 	</row>
+	<row>
+		<code>noteType</code>
+		<name>笔记类型</name>
+		<item>
+			<itemValue>0</itemValue>
+			<itemName>金融</itemName>
+		</item>
+		<item>
+			<itemValue>1</itemValue>
+			<itemName>文学</itemName>
+		</item>
+		<item>
+			<itemValue>2</itemValue>
+			<itemName>哲学</itemName>
+		</item>
+		<item>
+			<itemValue>3</itemValue>
+			<itemName>心理</itemName>
+		</item>
+	</row>
 </Root>
