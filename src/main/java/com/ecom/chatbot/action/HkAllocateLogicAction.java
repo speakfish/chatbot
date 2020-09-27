@@ -26,5 +26,8 @@ public class HkAllocateLogicAction extends TempletAction {
     protected String getTemplePage() {
         return "/hk/allocateLogic-list";
     }
+    private void getName(){
+        
+    }
 
 }
