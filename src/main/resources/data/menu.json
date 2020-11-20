@@ -30,5 +30,14 @@
 	"code" : "400-001",
 	"url" : "/note/anything/forward",
 	"status" : 0
+},{
+	"name" : "数据",
+	"code" : "500",
+	"status" : 0
+},{
+	"name" : "金十数据",
+	"code" : "500-001",
+	"url" : "/chatbot/jinShiData/forward",
+	"status" : 0
 }
 ]
